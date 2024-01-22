@@ -2,4 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    border: 1px dashed black;
 }
+
+.d-flex {
+    display: flex;
+}
+
+#site_header {
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
