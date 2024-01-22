@@ -10,7 +10,7 @@
     --color-header: rgba(255, 105, 0, 1);
     --color-lighter: rgba(255, 255, 255, 1);
     --color-darker: rgba(0, 0, 0, 1);
-    --color-sale: rgba(255, 0, 0, 1);
+    --color-discount: rgba(255, 0, 0, 1);
     --color-sustainability: rgba(0, 128, 0, 1);
     --color-price: rgba(255, 22, 18, 1);
 }
@@ -81,8 +81,14 @@ a {
 
 .add_favourite {
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 2%;
+    right: 0;
+    font-size: 1.5rem;
+    background-color: var(--color-lighter);
+    padding: 0.25rem 0.5rem
+}
+.add_favourite:hover {
+    color: var(--color-price);
 }
 
 .item_marks {
@@ -90,6 +96,32 @@ a {
     bottom: 10%;
     left: 0;
 
+}
+
+.discount {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: var(--color-lighter);
+    background-color: var(--color-discount);
+    padding: 0.25rem;
+}
+
+.susteinability_mark {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: var(--color-lighter);
+    background-color: var(--color-sustainability);
+    padding: 0.25rem;
+}
+
+.current_price {
+    color: var(--color-price);
+    font-size: 0.8rem;
+}
+
+.older_price {
+    text-decoration: line-through;
+    font-size: 0.8rem;
 }
 
 /* #endregion main */
