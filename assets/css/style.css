@@ -61,8 +61,22 @@ a {
     position: relative;
 }
 
+.img_container:hover .item_img{
+    display: none;
+
+}
+
+.img_container:hover .item_img_hover {
+    display: inline-block;
+    width: 100%;
+}
+
 .item_img {
     max-width: 100%;
+}
+
+.item_img_hover {
+    display: none;
 }
 
 .add_favourite {
@@ -77,6 +91,7 @@ a {
     left: 0;
 
 }
+
 /* #endregion main */
 
 /* #region footer */
