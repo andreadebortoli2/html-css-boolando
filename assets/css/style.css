@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    border: 1px dashed black;
+    /* border: 1px dashed black;      Debug */
 }
 
 :root {
@@ -16,9 +16,18 @@
 }
 
 /* #region common */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 a {
     text-decoration: none;
     color: var(--color-lighter);
+    padding: 0.25rem;
+}
+
+i {
+    padding: 0.25rem;
 }
 /* #endregion common */
 
@@ -32,6 +41,10 @@ a {
 .container {
     width: 80%;
     margin: auto;
+}
+
+.icons {
+    color: var(--color-lighter);
 }
 /* #endregion utilities */
 
@@ -84,7 +97,7 @@ a {
     right: 0;
     font-size: 1.5rem;
     background-color: var(--color-lighter);
-    padding: 0.25rem 0.5rem
+    padding: 0.25rem 0.60rem
 }
 .add_favourite:hover {
     color: var(--color-price);
@@ -127,6 +140,13 @@ a {
 
 /* #region footer */
 #site_footer {
-    justify-content: space-between;
+    color: var(--color-lighter);
+    background-color: var(--color-darker);
+    padding: 1rem 0;
+}
+
+.legal_info {
+    font-size: 0.5rem;
+    padding-top: 0.5rem;
 }
 /* #endregion footer */
