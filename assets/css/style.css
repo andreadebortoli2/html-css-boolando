@@ -6,14 +6,46 @@
     border: 1px dashed black;
 }
 
+/* #region utilities */
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
 }
+/* #endregion utilities */
 
+/* #region header */
 #site_header {
     justify-content: space-around;
     position: fixed;
     top: 0;
     width: 100%;
 }
+/* #endregion header */
 
+/* #region main */
+#site_main  {
+    padding-top: 5rem;
+}
+
+.item_container {
+    width: 40%;
+    position: relative;
+}
+
+.item_img {
+    max-width: 100%;
+}
+
+.add_favourite {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.item_marks {
+    position: absolute;
+    top: 75%;
+    left: 0;
+
+}
+/* #endregion main */
