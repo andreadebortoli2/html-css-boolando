@@ -26,6 +26,7 @@ a {
 .d-flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .container {
@@ -40,23 +41,21 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-}
-
-.header_menu {
-    justify-content: space-between;
+    z-index: 10;
 }
 /* #endregion header */
 
 /* #region main */
 #site_main  {
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .item_container {
-    width: 40%;
-    /* position: relative; */
+    width: 30%;
+    padding: 1rem 0;
 }
 
+    /* #region item_img and marks */
 .img_container {
     position: relative;
 }
@@ -95,7 +94,6 @@ a {
     position: absolute;
     bottom: 10%;
     left: 0;
-
 }
 
 .discount {
@@ -113,6 +111,7 @@ a {
     background-color: var(--color-sustainability);
     padding: 0.25rem;
 }
+    /* #endregion item_img and marks */
 
 .current_price {
     color: var(--color-price);
