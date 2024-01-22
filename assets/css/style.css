@@ -11,6 +11,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+}
 /* #endregion utilities */
 
 /* #region header */
@@ -49,3 +54,9 @@
 
 }
 /* #endregion main */
+
+/* #region footer */
+#site_footer {
+    justify-content: space-between;
+}
+/* #endregion footer */
